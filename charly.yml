@@ -20,7 +20,7 @@ wl-record-pixelflux:
             # "record"`. (box/<distro> adopts the matching @github pin via reconcile later — the
             # deliberate cross-repo lag; the R10 bed loads the LOCAL candy via the superproject
             # override.)
-            - plugin-record
+            - '@github.com/opencharly/plugin-record/candy/plugin-record:v2026.237.1427'
         plan:
             - run: mkdir=${HOME}/.local/bin
               mkdir: "${HOME}/.local/bin"
