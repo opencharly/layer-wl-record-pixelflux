@@ -1,7 +1,7 @@
 version: 2026.240.1943
 wl-record-pixelflux:
     candy:
-        version: 2026.243.0100
+        version: 2026.243.0930
         description: |
             Desktop video recorder via the selkies pixelflux H.264 pipeline
             Installs the pixelflux-record wrapper script under ~/.local/bin, which
