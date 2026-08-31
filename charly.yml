@@ -1,7 +1,7 @@
 version: 2026.240.1943
 wl-record-pixelflux:
     candy:
-        version: 2026.243.0100
+        version: 2026.243.0930
         description: |
             Desktop video recorder via the selkies pixelflux H.264 pipeline
             Installs the pixelflux-record wrapper script under ~/.local/bin, which
@@ -9,7 +9,7 @@ wl-record-pixelflux:
             the desktop as H.264. Verifiable: the wrapper script is installed and
             executable.
         require:
-            - '@github.com/opencharly/pod-selkies:v2026.242.2119'
+            - '@github.com/opencharly/pod-selkies:v2026.243.0720'
             - '@github.com/opencharly/layer-ffmpeg:v2026.239.1614'
             # plugin-record is the OUT-OF-TREE plugin that serves the `record:` check verb
             # (the asciinema/wf-recorder/pixelflux recording driver lives there, not in
